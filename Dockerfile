@@ -4,4 +4,4 @@ RUN chgrp -R 0 /opt && \
     chmod -R g=u /opt /etc/passwd && chmod a+x /opt/hello.sh
 USER 1000001
 ENTRYPOINT [ "/opt/hello.sh" ]
-CMD [ "HI ALL!" ]
+CMD [ "id" ]
