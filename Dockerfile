@@ -1,4 +1,3 @@
-#FROM fedora:27
 FROM busybox:latest
 COPY hello.sh /opt/hello.sh
 RUN chgrp -R 0 /opt && \
