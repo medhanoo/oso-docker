@@ -6,3 +6,5 @@ if ! whoami &> /dev/null; then
 fi
 "$@"
 #echo "$@"
+exit 0
+
